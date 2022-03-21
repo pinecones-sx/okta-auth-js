@@ -9,10 +9,14 @@ To use this:
 3. Install Node.js & yarn via Chocolatey in PowerShell.  You can do this using the Install-ChocoNodeYarn.ps1 script (by running unsigned or by manually entering the code from that ps1 file into PowerShell).
 4. Navigate to the \\okta-auth-js\samples\generated\static-spa sub folder
 5. From PowerShell run:
-  `yarn
+  ```
+  yarn
   npm install --force
-  yarn start`
+  yarn start
+  ```
 6. Navigate to http://localhost:8080 in a browser
 7. Enter the test username and password:
-  `demo.man@snipesstalone.com
-  TestAccount.9931#`
+  ```
+  username: demo.man@snipesstalone.com
+  password: TestAccount.9931#
+  ```
