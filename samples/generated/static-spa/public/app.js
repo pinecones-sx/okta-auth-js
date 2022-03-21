@@ -42,8 +42,8 @@ function stringify(obj) {
 }
 // Default config. Properties here match the names of query parameters in the URL
 var config = {
-  issuer: '',
-  clientId: '',
+  issuer: 'https://dev-48494093.okta.com/oauth2/default',
+  clientId: '0oa4abvbg49o6OHw75d7',
   scopes: ['openid','email'],
   storage: 'sessionStorage',
   useInteractionCodeFlow: true,
