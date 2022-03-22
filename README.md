@@ -14,9 +14,13 @@ To use this:
   npm install --force
   yarn start
   ```
-6. Navigate to http://localhost:8080 in a browser
-7. Enter the test username and password:
+6. Run Google Chrome from command line with the following command (replaceing <PATH_TO_REPO> with the local path to the repo):
+```
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-site-isolation-trials --disable-web-security --user-data-dir="<PATH_TO_REPO>"
+```
+7. Navigate to http://localhost:8080 in Chrome
+8. Enter the test username and password:
   ```
   username: demo.man@snipesstalone.com
-  password: TestAccount.9931#
+  password: TestAccount.9274#
   ```
